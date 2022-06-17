@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #gridcontainer{
+            
+            
+            margin-left: 10%;
+        }
+        #gridcontainerbox{
+            display:grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: auto;
+            margin:auto;
+            gap:20px;
+            padding-right: 150px;
+
+            
+
+        }
+        #gridcontainerbox>div{
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius: 1%;
+        }
+        #gridcontainerbox>div>img{
+            height: 230px;
+            width: 100%;
+        }
+        #gridcontainerbox>div>h4{
+            margin-left: 15px;
+        }
+        #gridcontainerbox>div>p{
+            margin-left: 15px;
+            color: gray;
+
+        }
+        .wt{
+            display: flex;
+            /* justify-content: space-evenly; */
+        }
+        .wt>h5{
+            margin-left: 15px;
+        }
+        .wt>h5+h5{
+            margin-left: 35px;
+            
+        }
+        .flexbtn{
+            display: flex;
+            justify-content: space-between;
+        }
+        .btn{
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    padding: 10px 12px;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: red;
+    height: 36px;
+    width: 100px;
+    margin-right: 15px;
+    
+        }
+        .flexbtn>h4{
+            margin-left: 15px;
+        }
+        .logo{
+            display: flex;
+            justify-content: center;
+        }
+        .logo>p {
+            padding-left: 15px;
+            color: gray ;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="gridcontainer">
+        <div id="gridcontainerbox">
+            <div>
+                <img src="https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/4f2023a6-ec0e-84c7-ae4e-1090534a2210/original/1584770367.3699--2020-03-2111_29_27--738.jpeg?format=webp">
+                <h4> Chicken curry</h4>
+                <p> Licious Chicken Curry Cut is a mix of bone-in whatever </p>
+                <div class = "wt">
+                    <h5> Nt wt: 500gms </h5>
+                    <h5> Gross: 500gms</h5>
+                </div>
+                <div class="flexbtn">
+                    <h4> MRP: 125</h4>
+                    <button class="btn"> ADD TO CART</button>
+                </div>
+                <hr>
+                <div class="logo">
+                    <img src="https://www.licious.in/img/rebranding/express_delivery.svg">
+                    <p> Tomorrow 6PM</p>
+                </div>
+                
+            </div>
+
+            <div>
+                <img src="https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/4f2023a6-ec0e-84c7-ae4e-1090534a2210/original/1584770367.3699--2020-03-2111_29_27--738.jpeg?format=webp">
+                <h4> Chicken curry</h4>
+                <p> Licious Chicken Curry Cut is a mix of bone-in whatever </p>
+                <div class = "wt">
+                    <h5> Nt wt: 500gms </h5>
+                    <h5> Gross: 500gms</h5>
+                </div>
+                <div class="flexbtn">
+                    <h4> MRP: 125</h4>
+                    <button class="btn"> ADD TO CART</button>
+                </div>
+                <hr>
+                <div class="logo">
+                    <img src="https://www.licious.in/img/rebranding/express_delivery.svg">
+                    <p> Tomorrow 6PM</p>
+                </div>
+                
+            </div>
+
+            <div>
+                <img src="https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/4f2023a6-ec0e-84c7-ae4e-1090534a2210/original/1584770367.3699--2020-03-2111_29_27--738.jpeg?format=webp">
+                <h4> Chicken curry</h4>
+                <p> Licious Chicken Curry Cut is a mix of bone-in whatever </p>
+                <div class = "wt">
+                    <h5> Nt wt: 500gms </h5>
+                    <h5> Gross: 500gms</h5>
+                </div>
+                <div class="flexbtn">
+                    <h4> MRP: 125</h4>
+                    <button class="btn"> ADD TO CART</button>
+                </div>
+                <hr>
+                <div class="logo">
+                    <img src="https://www.licious.in/img/rebranding/express_delivery.svg">
+                    <p> Tomorrow 6PM</p>
+                </div>
+                
+            </div>
+
+            <div>
+                <img src="https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/4f2023a6-ec0e-84c7-ae4e-1090534a2210/original/1584770367.3699--2020-03-2111_29_27--738.jpeg?format=webp">
+                <h4> Chicken curry</h4>
+                <p> Chicken boneless </p>
+                <div class = "wt">
+                    <h5> 500gms </h5>
+                    <h5> 500gms</h5>
+                </div>
+                <div class="flexbtn">
+                    <h4> 125</h4>
+                    <button class="btn"> ADD TO CART</button>
+                </div>
+                <hr>
+                <div class="logo">
+                    <img src="https://www.licious.in/img/rebranding/express_delivery.svg">
+                    <p> Tomorrow 6PM</p>
+                </div>
+                
+            </div>
+
+            <div>
+                <img src="https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/4f2023a6-ec0e-84c7-ae4e-1090534a2210/original/1584770367.3699--2020-03-2111_29_27--738.jpeg?format=webp">
+                <h4> Chicken curry</h4>
+                <p> Chicken boneless </p>
+                <div class = "wt">
+                    <h5> 500gms </h5>
+                    <h5> 500gms</h5>
+                </div>
+                <div class="flexbtn">
+                    <h4> 125</h4>
+                    <button class="btn"> ADD TO CART</button>
+                </div>
+                <hr>
+                <div class="logo">
+                    <img src="https://www.licious.in/img/rebranding/express_delivery.svg">
+                    <p> Tomorrow 6PM</p>
+                </div>
+                
+            </div>
+
+            <div>
+                <img src="https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/4f2023a6-ec0e-84c7-ae4e-1090534a2210/original/1584770367.3699--2020-03-2111_29_27--738.jpeg?format=webp">
+                <h4> Chicken curry</h4>
+                <p> Chicken boneless </p>
+                <div class = "wt">
+                    <h5> 500gms </h5>
+                    <h5> 500gms</h5>
+                </div>
+                <div class="flexbtn">
+                    <h4> 125</h4>
+                    <button class="btn"> ADD TO CART</button>
+                </div>
+                <hr>
+                <div class="logo">
+                    <img src="https://www.licious.in/img/rebranding/express_delivery.svg">
+                    <p> Tomorrow 6PM</p>
+                </div>
+                
+            </div>
+
+            <div>
+                <img src="https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/4f2023a6-ec0e-84c7-ae4e-1090534a2210/original/1584770367.3699--2020-03-2111_29_27--738.jpeg?format=webp">
+                <h4> Chicken curry</h4>
+                <p> Chicken boneless </p>
+                <div class = "wt">
+                    <h5> 500gms </h5>
+                    <h5> 500gms</h5>
+                </div>
+                <div class="flexbtn">
+                    <h4> 125</h4>
+                    <button class="btn"> ADD TO CART</button>
+                </div>
+                <hr>
+                <div class="logo">
+                    <img src="https://www.licious.in/img/rebranding/express_delivery.svg">
+                    <p> Tomorrow 6PM</p>
+                </div>
+                
+            </div>
+
+            <div>
+                <img src="https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/4f2023a6-ec0e-84c7-ae4e-1090534a2210/original/1584770367.3699--2020-03-2111_29_27--738.jpeg?format=webp">
+                <h4> Chicken curry</h4>
+                <p> Chicken boneless </p>
+                <div class = "wt">
+                    <h5> 500gms </h5>
+                    <h5> 500gms</h5>
+                </div>
+                <div class="flexbtn">
+                    <h4> 125</h4>
+                    <button class="btn"> ADD TO CART</button>
+                </div>
+                <hr>
+                <div class="logo">
+                    <img src="https://www.licious.in/img/rebranding/express_delivery.svg">
+                    <p> Tomorrow 6PM</p>
+                </div>
+                
+            </div>
+
+            <div>
+                <img src="https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/4f2023a6-ec0e-84c7-ae4e-1090534a2210/original/1584770367.3699--2020-03-2111_29_27--738.jpeg?format=webp">
+                <h4> Chicken curry</h4>
+                <p> Chicken boneless </p>
+                <div class = "wt">
+                    <h5> 500gms </h5>
+                    <h5> 500gms</h5>
+                </div>
+                <div class="flexbtn">
+                    <h4> 125</h4>
+                    <button class="btn"> ADD TO CART</button>
+                </div>
+                <hr>
+                <div class="logo">
+                    <img src="https://www.licious.in/img/rebranding/express_delivery.svg">
+                    <p> Tomorrow 6PM</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>    
+
+        
+
+        
+</body>
+</html>
